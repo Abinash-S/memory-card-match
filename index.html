@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <title>Memory card-match</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./css/all.css">
+  <link rel="stylesheet" href="./css/fonts.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="./js/script.js" async></script>
+</head>
+
+<body>
+    <h1 class="page-title">MEMORY CARD GAME</h1>
+  <div class="overlay-text visible">
+    Click to Start
+  </div>
+  <div id="game-over-text" class="overlay-text">
+    GAME OVER
+    <span class="overlay-text-small">Click to Restart</span>
+  </div>
+  <div id="victory-text" class="overlay-text">
+    VICTORY
+    <span class="overlay-text-small">Click to Restart</span>
+  </div>
+  <main>
+    <div class="game-container">
+      <div class="game-info-container">
+        <div class="game-info">
+          Time <span id="time-remaining">100</span>
+        </div>
+        <div class="game-info">
+          Flips <span id="flips">0</span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="card-back-value" src="./assets/images/full-stack-developer.png" alt="devloper" srcset="">
+        </div>
+        <div class="card-front card-face">
+          <img  class="card-value" src="./assets/images/c-file.png" alt="c-file" srcset="">
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="card-back-value" src="./assets/images/full-stack-developer.png" alt="devloper" srcset="">
+        </div>
+        <div class="card-front card-face">
+          <img  class="card-value" src="./assets/images/c-file.png" alt="c-file" srcset="">
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="card-back-value" src="./assets/images/full-stack-developer.png" alt="devloper" srcset="">
+        </div>
+        <div class="card-front card-face">
+          <img  class="card-value" src="./assets/images/c-plus-file.png" alt="c-plus-file" srcset="">
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="card-back-value" src="./assets/images/full-stack-developer.png" alt="devloper" srcset="">
+        </div>
+        <div class="card-front card-face">
+          <img  class="card-value" src="./assets/images/c-plus-file.png" alt="c-plus-file" srcset="">
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="card-back-value" src="./assets/images/full-stack-developer.png" alt="devloper" srcset="">
+        </div>
+        <div class="card-front card-face">
+          <img  class="card-value" src="./assets/images/css-file.png" alt="css-file" srcset="">
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="card-back-value" src="./assets/images/full-stack-developer.png" alt="devloper" srcset="">
+        </div>
+        <div class="card-front card-face">
+          <img  class="card-value" src="./assets/images/css-file.png" alt="css-file" srcset="">
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="card-back-value" src="./assets/images/full-stack-developer.png" alt="devloper" srcset="">
+        </div>
+        <div class="card-front card-face">
+          <img  class="card-value" src="./assets/images/html-file.png" alt="html-file" srcset="">
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="card-back-value" src="./assets/images/full-stack-developer.png" alt="devloper" srcset="">
+        </div>
+        <div class="card-front card-face">
+          <img  class="card-value" src="./assets/images/html-file.png" alt="html-file" srcset="">
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="card-back-value" src="./assets/images/full-stack-developer.png" alt="devloper" srcset="">
+        </div>
+        <div class="card-front card-face">
+          <img  class="card-value" src="./assets/images/java-file.png" alt="java-file" srcset="">
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="card-back-value" src="./assets/images/full-stack-developer.png" alt="devloper" srcset="">
+        </div>
+        <div class="card-front card-face">
+          <img  class="card-value" src="./assets/images/java-file.png" alt="java-file" srcset="">
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="card-back-value" src="./assets/images/full-stack-developer.png" alt="devloper" srcset="">
+        </div>
+        <div class="card-front card-face">
+          <img  class="card-value" src="./assets/images/js-file.png" alt="js-file" srcset="">
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="card-back-value" src="./assets/images/full-stack-developer.png" alt="devloper" srcset="">
+        </div>
+        <div class="card-front card-face">
+          <img  class="card-value" src="./assets/images/js-file.png" alt="js-file" srcset="">
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="card-back-value" src="./assets/images/full-stack-developer.png" alt="devloper" srcset="">
+        </div>
+        <div class="card-front card-face">
+          <img  class="card-value" src="./assets/images/php-file.png" alt="php-file" srcset="">
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="card-back-value" src="./assets/images/full-stack-developer.png" alt="devloper" srcset="">
+        </div>
+        <div class="card-front card-face">
+          <img  class="card-value" src="./assets/images/php-file.png" alt="php-file" srcset="">
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="card-back-value" src="./assets/images/full-stack-developer.png" alt="devloper" srcset="">
+        </div>
+        <div class="card-front card-face">
+          <img  class="card-value" src="./assets/images/py-file.png" alt="php-file" srcset="">
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="card-back-value" src="./assets/images/full-stack-developer.png" alt="devloper" srcset="">
+        </div>
+        <div class="card-front card-face">
+          <img  class="card-value" src="./assets/images/py-file.png" alt="php-file" srcset="">
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="card-back-value" src="./assets/images/full-stack-developer.png" alt="devloper" srcset="">
+        </div>
+        <div class="card-front card-face">
+          <img  class="card-value" src="./assets/images/swift-file.png" alt="swift-file" srcset="">
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="card-back-value" src="./assets/images/full-stack-developer.png" alt="devloper" srcset="">
+        </div>
+        <div class="card-front card-face">
+          <img  class="card-value" src="./assets/images/swift-file.png" alt="swift-file" srcset="">
+          <img src="" alt="">
+        </div>
+      </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="dev-info">
+      <div class="social text-grey">
+        <a href="https://www.facebook.com/abinaz01.smart" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/_.abinaz._/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href=" https://twitter.com/AbinazSmart01?s=08" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <div class="dev-info-text">
+          <p>Copyright © 2020 Abinash S</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
